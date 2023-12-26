@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfume | E-commerce</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="mishrit-title">
+        <h1>Mishrit</h1>
+    </div>
+
+    <section class="main swiper mySwiper">
+        <div class="wrapper swiper-wrapper">
+            <div class="slide swiper-slide">
+                    <img src="images/back2.jpeg" alt="images" class="image"/>
+                    <div class="image-data">
+                        <span class="text">A captivating fragrance that lingers all day long.</span>
+                        <h2>luxurious perfume</h2>
+                        <a href="Shop.html" class="button">Shop</a>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <img src="images/back2.jpeg" alt="" class="image" />
+                    <div class="image-data">
+                        <span class="text">We really like what we do.</span>
+                        <h2>Coffee Beans with a <br /> Perfect Aroma</h2>
+                        <a href="Shop.html" class="button">Shop</a>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <img src="images/back3.jpg" alt="" class="image" />
+                    <div class="image-data">
+                        <span class="text">Making Our coffee with lover.</span>
+                        <h2>Alluring and Fragrant <br /> Coffee Aroma</h2>
+                        <a href="Shop.html" class="button">Shop</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next nav-btn"></div>
+            <div class="swiper-button-prev nav-btn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <script src="JS/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+<footer>
+    <!-- Your existing footer content -->
+    <p>&copy; 2023 Perfume Shop</p>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+    
+   
+</footer>
+
+</body>
+
+</html>
